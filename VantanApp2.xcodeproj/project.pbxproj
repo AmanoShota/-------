@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61B6CFBB1929D263001B95C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6CFBA1929D263001B95C8 /* Foundation.framework */; };
+		61B6CFBD1929D263001B95C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6CFBC1929D263001B95C8 /* CoreGraphics.framework */; };
+		61B6CFBF1929D263001B95C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6CFBE1929D263001B95C8 /* UIKit.framework */; };
+		61B6CFC51929D263001B95C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61B6CFC31929D263001B95C8 /* InfoPlist.strings */; };
+		61B6CFC71929D263001B95C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6CFC61929D263001B95C8 /* main.m */; };
+		61B6CFCB1929D263001B95C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6CFCA1929D263001B95C8 /* AppDelegate.m */; };
+		61B6CFCE1929D263001B95C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B6CFCC1929D263001B95C8 /* Main.storyboard */; };
+		61B6CFD11929D263001B95C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6CFD01929D263001B95C8 /* ViewController.m */; };
+		61B6CFD31929D263001B95C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B6CFD21929D263001B95C8 /* Images.xcassets */; };
+		61B6CFDA1929D263001B95C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6CFD91929D263001B95C8 /* XCTest.framework */; };
+		61B6CFDB1929D263001B95C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6CFBA1929D263001B95C8 /* Foundation.framework */; };
+		61B6CFDC1929D263001B95C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6CFBE1929D263001B95C8 /* UIKit.framework */; };
+		61B6CFE41929D263001B95C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61B6CFE21929D263001B95C8 /* InfoPlist.strings */; };
+		61B6CFE61929D263001B95C8 /* VantanApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6CFE51929D263001B95C8 /* VantanApp2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61B6CFDD1929D263001B95C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61B6CFAF1929D263001B95C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B6CFB61929D263001B95C8;
+			remoteInfo = VantanApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61B6CFB71929D263001B95C8 /* VantanApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VantanApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B6CFBA1929D263001B95C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61B6CFBC1929D263001B95C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61B6CFBE1929D263001B95C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61B6CFC21929D263001B95C8 /* VantanApp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VantanApp2-Info.plist"; sourceTree = "<group>"; };
+		61B6CFC41929D263001B95C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61B6CFC61929D263001B95C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61B6CFC81929D263001B95C8 /* VantanApp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VantanApp2-Prefix.pch"; sourceTree = "<group>"; };
+		61B6CFC91929D263001B95C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61B6CFCA1929D263001B95C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61B6CFCD1929D263001B95C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61B6CFCF1929D263001B95C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61B6CFD01929D263001B95C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61B6CFD21929D263001B95C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61B6CFD81929D263001B95C8 /* VantanApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VantanApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B6CFD91929D263001B95C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		61B6CFE11929D263001B95C8 /* VantanApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VantanApp2Tests-Info.plist"; sourceTree = "<group>"; };
+		61B6CFE31929D263001B95C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61B6CFE51929D263001B95C8 /* VantanApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VantanApp2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61B6CFB41929D263001B95C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6CFBD1929D263001B95C8 /* CoreGraphics.framework in Frameworks */,
+				61B6CFBF1929D263001B95C8 /* UIKit.framework in Frameworks */,
+				61B6CFBB1929D263001B95C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6CFD51929D263001B95C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6CFDA1929D263001B95C8 /* XCTest.framework in Frameworks */,
+				61B6CFDC1929D263001B95C8 /* UIKit.framework in Frameworks */,
+				61B6CFDB1929D263001B95C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61B6CFAE1929D263001B95C8 = {
+			isa = PBXGroup;
+			children = (
+				61B6CFC01929D263001B95C8 /* VantanApp2 */,
+				61B6CFDF1929D263001B95C8 /* VantanApp2Tests */,
+				61B6CFB91929D263001B95C8 /* Frameworks */,
+				61B6CFB81929D263001B95C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61B6CFB81929D263001B95C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61B6CFB71929D263001B95C8 /* VantanApp2.app */,
+				61B6CFD81929D263001B95C8 /* VantanApp2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B6CFB91929D263001B95C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61B6CFBA1929D263001B95C8 /* Foundation.framework */,
+				61B6CFBC1929D263001B95C8 /* CoreGraphics.framework */,
+				61B6CFBE1929D263001B95C8 /* UIKit.framework */,
+				61B6CFD91929D263001B95C8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61B6CFC01929D263001B95C8 /* VantanApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				61B6CFC91929D263001B95C8 /* AppDelegate.h */,
+				61B6CFCA1929D263001B95C8 /* AppDelegate.m */,
+				61B6CFCC1929D263001B95C8 /* Main.storyboard */,
+				61B6CFCF1929D263001B95C8 /* ViewController.h */,
+				61B6CFD01929D263001B95C8 /* ViewController.m */,
+				61B6CFD21929D263001B95C8 /* Images.xcassets */,
+				61B6CFC11929D263001B95C8 /* Supporting Files */,
+			);
+			path = VantanApp2;
+			sourceTree = "<group>";
+		};
+		61B6CFC11929D263001B95C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B6CFC21929D263001B95C8 /* VantanApp2-Info.plist */,
+				61B6CFC31929D263001B95C8 /* InfoPlist.strings */,
+				61B6CFC61929D263001B95C8 /* main.m */,
+				61B6CFC81929D263001B95C8 /* VantanApp2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61B6CFDF1929D263001B95C8 /* VantanApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61B6CFE51929D263001B95C8 /* VantanApp2Tests.m */,
+				61B6CFE01929D263001B95C8 /* Supporting Files */,
+			);
+			path = VantanApp2Tests;
+			sourceTree = "<group>";
+		};
+		61B6CFE01929D263001B95C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61B6CFE11929D263001B95C8 /* VantanApp2Tests-Info.plist */,
+				61B6CFE21929D263001B95C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61B6CFB61929D263001B95C8 /* VantanApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B6CFE91929D263001B95C8 /* Build configuration list for PBXNativeTarget "VantanApp2" */;
+			buildPhases = (
+				61B6CFB31929D263001B95C8 /* Sources */,
+				61B6CFB41929D263001B95C8 /* Frameworks */,
+				61B6CFB51929D263001B95C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VantanApp2;
+			productName = VantanApp2;
+			productReference = 61B6CFB71929D263001B95C8 /* VantanApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61B6CFD71929D263001B95C8 /* VantanApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61B6CFEC1929D263001B95C8 /* Build configuration list for PBXNativeTarget "VantanApp2Tests" */;
+			buildPhases = (
+				61B6CFD41929D263001B95C8 /* Sources */,
+				61B6CFD51929D263001B95C8 /* Frameworks */,
+				61B6CFD61929D263001B95C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B6CFDE1929D263001B95C8 /* PBXTargetDependency */,
+			);
+			name = VantanApp2Tests;
+			productName = VantanApp2Tests;
+			productReference = 61B6CFD81929D263001B95C8 /* VantanApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61B6CFAF1929D263001B95C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ShotaAmano;
+				TargetAttributes = {
+					61B6CFD71929D263001B95C8 = {
+						TestTargetID = 61B6CFB61929D263001B95C8;
+					};
+				};
+			};
+			buildConfigurationList = 61B6CFB21929D263001B95C8 /* Build configuration list for PBXProject "VantanApp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61B6CFAE1929D263001B95C8;
+			productRefGroup = 61B6CFB81929D263001B95C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61B6CFB61929D263001B95C8 /* VantanApp2 */,
+				61B6CFD71929D263001B95C8 /* VantanApp2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61B6CFB51929D263001B95C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6CFD31929D263001B95C8 /* Images.xcassets in Resources */,
+				61B6CFC51929D263001B95C8 /* InfoPlist.strings in Resources */,
+				61B6CFCE1929D263001B95C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6CFD61929D263001B95C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6CFE41929D263001B95C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61B6CFB31929D263001B95C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6CFD11929D263001B95C8 /* ViewController.m in Sources */,
+				61B6CFCB1929D263001B95C8 /* AppDelegate.m in Sources */,
+				61B6CFC71929D263001B95C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B6CFD41929D263001B95C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B6CFE61929D263001B95C8 /* VantanApp2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B6CFDE1929D263001B95C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B6CFB61929D263001B95C8 /* VantanApp2 */;
+			targetProxy = 61B6CFDD1929D263001B95C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61B6CFC31929D263001B95C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B6CFC41929D263001B95C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61B6CFCC1929D263001B95C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B6CFCD1929D263001B95C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61B6CFE21929D263001B95C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B6CFE31929D263001B95C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61B6CFE71929D263001B95C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61B6CFE81929D263001B95C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61B6CFEA1929D263001B95C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VantanApp2/VantanApp2-Prefix.pch";
+				INFOPLIST_FILE = "VantanApp2/VantanApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61B6CFEB1929D263001B95C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VantanApp2/VantanApp2-Prefix.pch";
+				INFOPLIST_FILE = "VantanApp2/VantanApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		61B6CFED1929D263001B95C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VantanApp2.app/VantanApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VantanApp2/VantanApp2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VantanApp2Tests/VantanApp2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		61B6CFEE1929D263001B95C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VantanApp2.app/VantanApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VantanApp2/VantanApp2-Prefix.pch";
+				INFOPLIST_FILE = "VantanApp2Tests/VantanApp2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B6CFB21929D263001B95C8 /* Build configuration list for PBXProject "VantanApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6CFE71929D263001B95C8 /* Debug */,
+				61B6CFE81929D263001B95C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B6CFE91929D263001B95C8 /* Build configuration list for PBXNativeTarget "VantanApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6CFEA1929D263001B95C8 /* Debug */,
+				61B6CFEB1929D263001B95C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61B6CFEC1929D263001B95C8 /* Build configuration list for PBXNativeTarget "VantanApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61B6CFED1929D263001B95C8 /* Debug */,
+				61B6CFEE1929D263001B95C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61B6CFAF1929D263001B95C8 /* Project object */;
+}
