@@ -26,4 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)viewSuneo:(UIButton *)sender {
+     [UIImage imageNamed:@"suneo.jpg"];
+}
 @end
