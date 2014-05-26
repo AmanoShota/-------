@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>592B4E55-1D42-48DD-AD56-6FA661D18BA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VantanApp2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4EB6B40-11E2-4A4B-BDF4-069E1A4249ED</key>
+		<string>https://github.com/AmanoShota/-------.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VantanApp2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4EB6B40-11E2-4A4B-BDF4-069E1A4249ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AmanoShota/-------.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4EB6B40-11E2-4A4B-BDF4-069E1A4249ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4EB6B40-11E2-4A4B-BDF4-069E1A4249ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VantanApp2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

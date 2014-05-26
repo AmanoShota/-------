@@ -21,6 +21,10 @@
 		61B6CFDC1929D263001B95C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6CFBE1929D263001B95C8 /* UIKit.framework */; };
 		61B6CFE41929D263001B95C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61B6CFE21929D263001B95C8 /* InfoPlist.strings */; };
 		61B6CFE61929D263001B95C8 /* VantanApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B6CFE51929D263001B95C8 /* VantanApp2Tests.m */; };
+		61D02C7B1929E4AF00FC7B47 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D02C7A1929E4AF00FC7B47 /* YellowViewController.m */; };
+		61D02C7E1929E6F100FC7B47 /* YellowGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D02C7D1929E6F100FC7B47 /* YellowGreenViewController.m */; };
+		61D02C811929E7FA00FC7B47 /* PurpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D02C801929E7FA00FC7B47 /* PurpleViewController.m */; };
+		61D02C841929EA4B00FC7B47 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D02C831929EA4B00FC7B47 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		61B6CFE11929D263001B95C8 /* VantanApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VantanApp2Tests-Info.plist"; sourceTree = "<group>"; };
 		61B6CFE31929D263001B95C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61B6CFE51929D263001B95C8 /* VantanApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VantanApp2Tests.m; sourceTree = "<group>"; };
+		61D02C791929E4AF00FC7B47 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		61D02C7A1929E4AF00FC7B47 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		61D02C7C1929E6F100FC7B47 /* YellowGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowGreenViewController.h; sourceTree = "<group>"; };
+		61D02C7D1929E6F100FC7B47 /* YellowGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowGreenViewController.m; sourceTree = "<group>"; };
+		61D02C7F1929E7FA00FC7B47 /* PurpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleViewController.h; sourceTree = "<group>"; };
+		61D02C801929E7FA00FC7B47 /* PurpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleViewController.m; sourceTree = "<group>"; };
+		61D02C821929EA4B00FC7B47 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		61D02C831929EA4B00FC7B47 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,14 @@
 				61B6CFC91929D263001B95C8 /* AppDelegate.h */,
 				61B6CFCA1929D263001B95C8 /* AppDelegate.m */,
 				61B6CFCC1929D263001B95C8 /* Main.storyboard */,
+				61D02C821929EA4B00FC7B47 /* WebViewController.h */,
+				61D02C831929EA4B00FC7B47 /* WebViewController.m */,
+				61D02C7F1929E7FA00FC7B47 /* PurpleViewController.h */,
+				61D02C801929E7FA00FC7B47 /* PurpleViewController.m */,
+				61D02C7C1929E6F100FC7B47 /* YellowGreenViewController.h */,
+				61D02C7D1929E6F100FC7B47 /* YellowGreenViewController.m */,
+				61D02C791929E4AF00FC7B47 /* YellowViewController.h */,
+				61D02C7A1929E4AF00FC7B47 /* YellowViewController.m */,
 				61B6CFCF1929D263001B95C8 /* ViewController.h */,
 				61B6CFD01929D263001B95C8 /* ViewController.m */,
 				61B6CFD21929D263001B95C8 /* Images.xcassets */,
@@ -249,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D02C7B1929E4AF00FC7B47 /* YellowViewController.m in Sources */,
+				61D02C841929EA4B00FC7B47 /* WebViewController.m in Sources */,
 				61B6CFD11929D263001B95C8 /* ViewController.m in Sources */,
+				61D02C7E1929E6F100FC7B47 /* YellowGreenViewController.m in Sources */,
 				61B6CFCB1929D263001B95C8 /* AppDelegate.m in Sources */,
+				61D02C811929E7FA00FC7B47 /* PurpleViewController.m in Sources */,
 				61B6CFC71929D263001B95C8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +480,7 @@
 				61B6CFEB1929D263001B95C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61B6CFEC1929D263001B95C8 /* Build configuration list for PBXNativeTarget "VantanApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				61B6CFEE1929D263001B95C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
